@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+    <div class="chat">
+        <div class="chat-window" id = "chat-window">
+            <ul id = "messages">
+                <li class="msg">
+                    <span class="msg-span">
+                        <i class="name">Host: </i> Hello and welcome to the chat!
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <form id = "messageForm" autocomplete="off">
+            <input type = "text" id = "msg-input" placeholder="Enter a message">
+            <button id = "msg-btn" type = "submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
